@@ -99,7 +99,7 @@ measured from when the program started running:
 
 You are not required to write a unit test for this method. Instead,
 create a static method in BoundedQueueTest which calls _reportStats_
-and annotate it with `@AfterClass` instead of `@Test` so that it will
+and annotate it with `@AfterEach` instead of `@Test` so that it will
 run after all the test cases. Manually check that the statistics look
 reasonable.
 
