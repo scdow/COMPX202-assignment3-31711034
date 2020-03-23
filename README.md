@@ -217,8 +217,8 @@ For example, consider the following program:
 ```
 public class Example {
     public static void main(String[] args) {
-        BoundedQueue&lt;String&gt; q1 = new BoundedQueue&lt;String&gt;(3, false);
-        BoundedQueue&lt;String&gt; q2 = new BoundedQueue&lt;String&gt;(3, false);
+        BoundedQueue<String> q1 = new BoundedQueue<String>(3, false);
+        BoundedQueue<String> q2 = new BoundedQueue<String>(3, false);
         q1.put("Alice"); q1.put("Bob"); q1.put("Charlie"); q1.put("David");
         q2.put("xyz"); q2.put("123");
         BoundedQueue.reportStats();
