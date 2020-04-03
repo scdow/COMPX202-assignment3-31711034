@@ -139,7 +139,8 @@ ScoreAction class (provided in Game.java) changes the player's score.
 Describe in two or three paragraphs another way to implement the
 bounded queue which is different from the one you used.
 
-> Write your answer here
+> 1. Change the way of building bounded queue, I use array and generic here, can also use linked list and generic, and other different abstract data type.
+>2. Use Object to replace the <T> <U>.
 
 Submitting
 ----------
