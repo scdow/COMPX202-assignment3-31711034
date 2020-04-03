@@ -8,11 +8,11 @@ public class GameTest {
     /**
      * This is an example test. You can delete it.
      */
-    @Test
-    public void exampleTest() {
-        assertEquals(2, 1 + 1, "1 + 1 should equal 2");
-        assertTrue(3 < 4, "3 should be less than 4");
-    }
+//    @Test
+//    public void exampleTest() {
+//        assertEquals(2, 1 + 1, "1 + 1 should equal 2");
+//        assertTrue(3 < 4, "3 should be less than 4");
+//    }
 
     @Test
     public void gameTest(){
