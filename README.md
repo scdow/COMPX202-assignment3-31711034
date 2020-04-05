@@ -140,7 +140,7 @@ Describe in two or three paragraphs another way to implement the
 bounded queue which is different from the one you used.
 
 > 1. Change the way of building bounded queue, I use array and generic here, can also use linked list and generic, and other different abstract data type.
->2. Use Object to replace the <T> <U>.
+> 2. Use Object to replace the generics.
 
 Submitting
 ----------
